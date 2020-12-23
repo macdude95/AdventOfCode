@@ -5,13 +5,13 @@ print("Part 1:")
 for x in numbers:
 	for y in numbers:
 		if (x + y) == 2020:
-			print "\tx: {0}, y: {1}".format(x,y)
-			print "\tx * y: " + str(x * y)
+			print("\tx: {0}, y: {1}".format(x,y))
+			print("\tx * y: " + str(x * y))
 
 print("Part 2:")
 for x in numbers:
 	for y in numbers:
 		for z in numbers:
 			if (x + y + z) == 2020:
-				print "\tx: {0}, y: {1}, z: {2}".format(x,y,z)
-				print "\tx * y * z: " + str(x * y * z)
+				print("\tx: {0}, y: {1}, z: {2}".format(x,y,z))
+				print("\tx * y * z: " + str(x * y * z))
